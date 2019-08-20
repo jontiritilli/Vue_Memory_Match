@@ -1,0 +1,22 @@
+@font-face {
+  font-family: hollow;
+  src: url('~@/assets/font/pokemon_hollow.ttf') format('truetype');
+}
+@font-face {
+  font-family: solid;
+  src: url('~@/assets/font/pokemon_solid.ttf') format('truetype');
+}
+.hollow {
+  font-family: hollow;
+  letter-spacing: 4px;
+}
+.solid {
+  font-family: solid;
+  letter-spacing: 4px;
+}
+.logo {
+  display: inline;
+}
+.logo--medium {
+  max-width: 250px;
+}
